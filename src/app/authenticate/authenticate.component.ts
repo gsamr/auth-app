@@ -6,7 +6,7 @@ import { stringify } from 'querystring';
 @Component({
   selector: 'app-authenticate',
   templateUrl: './authenticate.component.html',
-  styleUrls: ['./authenticate.component.sass']
+  styleUrls: ['./authenticate.component.scss']
 })
 export class AuthenticateComponent implements OnInit {
 
