@@ -1,0 +1,15 @@
+
+<table class="table table-sm table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">File ID</th>
+        <th scope="col">File Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let file of files_list">
+        <td>{{ file.id }}</td>
+        <td>{{ file.name }}</td>
+      </tr>
+    </tbody>
+  </table>
